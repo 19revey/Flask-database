@@ -1,0 +1,6 @@
+#flask
+Flask
+Flask-WTF
+WTForms
+Flask-SQLAlchemy
+PyMySQL

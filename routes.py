@@ -16,7 +16,7 @@ def index():
 def add():
     form = forms.AddTaskForm()
     if form.validate_on_submit():
-        t=Task(title=form.title.data,date=datetime.utcnow())
+        t=Task(title=form.title.data)
         db.session.add(t)
         db.session.commit()
         flash('Task added to the database')
